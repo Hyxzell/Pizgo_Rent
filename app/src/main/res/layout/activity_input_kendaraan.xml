@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_menu"
+    tools:context=".Input_Kendaraan">
+
+    <LinearLayout
+        android:layout_width="327dp"
+        android:orientation="vertical"
+        android:layout_height="577dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambah Kendaraan"
+            android:textColor="@color/warnatext"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:paddingTop="70dp" />
+        <TextView
+            android:paddingLeft="10dp"
+            android:textColor="@color/warnatext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Polisi"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:textColor="@color/warnatext"
+            android:layout_height="wrap_content"
+            android:maxLength="9"
+            android:id="@+id/editTextNo_Pol"/>
+
+        <TextView
+            android:textColor="@color/warnatext"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merk"/>
+
+        <EditText
+            android:textColor="@color/warnatext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextMerk"/>
+
+        <TextView
+            android:textColor="@color/warnatext"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipe"/>
+
+        <EditText
+            android:textColor="@color/warnatext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextTipe"/>
+
+        <TextView
+            android:textColor="@color/warnatext"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga Sewa"/>
+
+        <EditText
+            android:textColor="@color/warnatext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextHarga_Sewa"/>
+
+        <Button
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Tambah Mobil"
+            android:id="@+id/buttonInput_Kendaraan"/>
+
+    </LinearLayout>
+
+</LinearLayout>

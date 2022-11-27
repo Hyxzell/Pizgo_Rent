@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="45dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_tambahpemesanan"
+    tools:context=".Pemesanan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingTop="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Customer"/>
+
+        <EditText
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nama Customer"
+            android:maxLength="30"
+            android:id="@+id/editTextNama_Customer"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No HP Customer"/>
+
+        <EditText
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan No HP Customer"
+            android:maxLength="12"
+            android:inputType="number"
+            android:id="@+id/editTextNo_HP"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Polisi"/>
+
+        <EditText
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan No Polisi Mobil"
+            android:maxLength="9"
+            android:id="@+id/editTextNo_Pol_Mobil"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merk Mobil"/>
+
+        <EditText
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Merk Mobil"
+            android:maxLength="30"
+            android:id="@+id/editTextMerk_Mobil"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipe Mobil"/>
+
+        <EditText
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan No Polisi Mobil"
+            android:id="@+id/editTextTipe_Mobil"/>
+
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lama Sewa (hari)"/>
+
+        <EditText
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Lama Sewa"
+            android:maxLength="2"
+            android:inputType="number"
+            android:id="@+id/editTextLama_Sewa"/>
+
+        <Button
+            android:textColor="@color/warnatext"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambah Pemesanan"
+            android:id="@+id/buttonInput_Pemesanan"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

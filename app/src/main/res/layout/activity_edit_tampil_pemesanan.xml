@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_list"
+    tools:context=".EditTampilPemesanan">
+
+    <LinearLayout
+        android:layout_width="327dp"
+        android:orientation="vertical"
+        android:layout_height="577dp">
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Customer"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Nama Customer"
+            android:id="@+id/editTextNama_Customer"/>
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No HP Customer"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan No HP Customer"
+            android:maxLength="12"
+            android:inputType="number"
+            android:id="@+id/editTextNo_HP"/>
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Polisi"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan No Polisi Mobil"
+            android:maxLength="9"
+            android:id="@+id/editTextNo_Pol_Mobil"/>
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merk Mobil"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Merk Mobil"
+            android:id="@+id/editTextMerk_Mobil"/>
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipe Mobil"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan No Polisi Mobil"
+            android:id="@+id/editTextTipe_Mobil"/>
+
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lama Sewa (hari)"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Lama Sewa"
+            android:maxLength="2"
+            android:inputType="number"
+            android:id="@+id/editTextLama_Sewa"/>
+
+
+        <Button
+            android:textColor="@color/warnatext"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Pemesanan"
+            android:id="@+id/buttonUpdate_Pemesanan"/>
+
+
+        <Button
+            android:textColor="@color/warnatext"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hapus Pemesanan"
+            android:id="@+id/buttonHapus_Pemesanan"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
